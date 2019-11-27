@@ -23,6 +23,8 @@ import tensorflow as tf
 from scipy.spatial.distance import pdist, cdist, squareform
 from keras import regularizers
 from sklearn.decomposition import PCA
+from keras.layers.normalization import BatchNormalization
+
 
 # Gaussian noise scale sizes that were determined so that the average
 # L-2 perturbation size is equal to that of the adversarial samples
